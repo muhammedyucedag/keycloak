@@ -45,9 +45,29 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Keycloak.AuthServices.Authentication": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            },
+            "Keycloak.AuthServices.Authorization": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[6.5.0, )"
+            },
+            "TS.Result": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             }
           },
           "imports": [

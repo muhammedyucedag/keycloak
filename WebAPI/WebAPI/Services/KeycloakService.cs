@@ -8,7 +8,7 @@ namespace WebAPI.Services;
 
 public sealed class KeycloakService(IOptions<KeycloakConfiguration> options)
 {
-    public async Task<string> GetAccessToken(CancellationToken cancellationToken)
+    public async Task<string> GetAccessToken()
     {
         HttpClient client = new HttpClient();
         
@@ -24,8 +24,8 @@ public sealed class KeycloakService(IOptions<KeycloakConfiguration> options)
         data.Add(clientId);
         data.Add(clientSecret);
         
-        var message = await client.PostAsync(endpoint, new FormUrlEncodedContent(data), cancellationToken);
-        var response = await message.Content.ReadAsStringAsync(cancellationToken);
+        var message = await client.PostAsync(endpoint, new FormUrlEncodedContent(data));
+        var response = await message.Content.ReadAsStringAsync();
 
         if (!message.IsSuccessStatusCode)
         {
@@ -35,8 +35,8 @@ public sealed class KeycloakService(IOptions<KeycloakConfiguration> options)
                 throw new ArgumentException(errorResultForBadRequest!.ErrorMessage);
             }
             
-            var errorResultForOther = JsonSerializer.Deserialize<ErrorResponseDto>(response);
-            throw new Exception(errorResultForOther!.Error);
+            var errorResultForOther = JsonSerializer.Deserialize<BadRequestErrorResponseDto>(response);
+            throw new Exception(errorResultForOther!.ErrorMessage);
         }
         
         var result = JsonSerializer.Deserialize<GetAccessTokenResponseDto>(response);

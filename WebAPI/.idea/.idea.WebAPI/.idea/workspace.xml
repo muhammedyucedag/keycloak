@@ -9,18 +9,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51241a78-0fc1-4962-99c5-8d1f3d891f33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WebAPI/Controllers/AuthController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAPI/Dtos/ErrorResponseDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAPI/Dtos/GetAccessTokenResponseDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAPI/Options/KeycloakConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAPI/Services/KeycloakService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/Dtos/RegisterDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/Mapping/GeneralMapping.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebAPI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Controllers/AuthController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/Services/KeycloakService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Services/KeycloakService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/WebAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/net9.0/Microsoft.OpenApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/net9.0/Microsoft.OpenApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/net9.0/WebAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/net9.0/WebAPI.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/net9.0/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/net9.0/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/net9.0/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/net9.0/WebAPI.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/WebAPI.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/ref/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/ref/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/refint/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net9.0/refint/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/indexLayout.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,25 +57,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "muhammedyucedag"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;muhammedyucedag&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/muhammedyucedag/keycloak.git",
-    "accountId": "5823fd6f-044f-48fd-8458-b72a5bb2651d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/muhammedyucedag/keycloak.git&quot;,
+    &quot;accountId&quot;: &quot;5823fd6f-044f-48fd-8458-b72a5bb2651d&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0d918be99f594a7685c356593656051c35c00/2e/2478955b/ServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10083e7b9754433aade6de5159ade8f8214600/1e/88d83086/ControllerEndpointRouteBuilderExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1ecb3b0fc44044e5b266c51e1172c322f200/b1/389b386d/AuthorizationAppBuilderExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82305734626b422abb7f6ec97cb4f6491dc200/63/c27c2638/HttpContent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9c7bf401090249f1bc3f331e6a8cbbde22000/60/e5857e07/ServiceCollection.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2sUu1PYbjAPbGR5oP7EQuxWPsBd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -112,12 +140,14 @@
       <option name="presentableId" value="Default" />
       <updated>1738522259375</updated>
       <workItem from="1738522260610" duration="3849000" />
+      <workItem from="1738688631772" duration="6002000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

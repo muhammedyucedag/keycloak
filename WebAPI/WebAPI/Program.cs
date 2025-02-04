@@ -10,6 +10,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddAuthorization();
+builder.Services.AddAutoMapper(typeof(Program));
 
 builder.Services.Configure<KeycloakConfiguration>(builder.Configuration.GetSection("KeycloakConfiguration"));
 builder.Services.AddScoped<KeycloakService>();
