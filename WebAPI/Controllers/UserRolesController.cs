@@ -7,9 +7,7 @@ using WebAPI.Services;
 namespace WebAPI.Controllers;
 [Route("api/[controller]/[action]")]
 [ApiController]
-public sealed class UserRolesController(
-    KeycloakService keycloakService,
-    IOptions<KeycloakConfiguration> options) : ControllerBase
+public sealed class UserRolesController(KeycloakService keycloakService, IOptions<KeycloakConfiguration> options) : ControllerBase
 {
     [HttpPost]
     public async Task<IActionResult> AssignmentRolesByUserId(Guid id, List<RoleDto> request, CancellationToken cancellationToken)

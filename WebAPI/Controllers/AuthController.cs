@@ -7,10 +7,7 @@ using WebAPI.Services;
 namespace WebAPI.Controllers;
 [Route("api/[controller]/[action]")]
 [ApiController]
-public sealed class AuthController(
-    IOptions<KeycloakConfiguration> options,
-    KeycloakService keycloakService
-    ) : ControllerBase
+public sealed class AuthController(IOptions<KeycloakConfiguration> options, KeycloakService keycloakService) : ControllerBase
 {
     [HttpPost]
     public async Task<IActionResult> Register(RegisterDto request, CancellationToken cancellationToken = default)

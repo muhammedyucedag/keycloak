@@ -8,94 +8,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b59f590-c104-4483-853d-86d05e65ced0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/app.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/app.routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/home/home.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/home/home.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/home/home.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/layouts/layouts.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/layouts/layouts.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/layouts/layouts.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/login/login.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/login/login.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/login/login.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/register/register.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/register/register.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/register/register.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/roles/roles.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/roles/roles.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/roles/roles.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/users/users.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/users/users.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/components/users/users.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/guards/auth.guard.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/models/login.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/models/login.response.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/models/register.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/models/result.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/models/role.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/models/user.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/app/services/http.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularApp/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/app.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/app.routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/components/home/home.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/components/home/home.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/components/home/home.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/components/layouts/layouts.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/components/layouts/layouts.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/components/layouts/layouts.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/components/roles/roles.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/components/roles/roles.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/components/roles/roles.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/components/users/users.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/components/users/users.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/components/users/users.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/guards/auth.guard.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/keycloak.init.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/models/login.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/models/login.response.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/models/register.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/models/result.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/models/role.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/models/user.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/app/services/http.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngularAppWithKeycloakLogin/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/RolesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RolesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/UserRolesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/UserRolesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/ref/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/ref/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/refint/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/refint/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/WebAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,40 +45,42 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "muhammedyucedag"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;muhammedyucedag&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/TanerSaydam/Keycloak.Udemy.git",
-    "accountId": "5823fd6f-044f-48fd-8458-b72a5bb2651d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/muhammedyucedag/keycloak.git&quot;,
+    &quot;accountId&quot;: &quot;5823fd6f-044f-48fd-8458-b72a5bb2651d&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2tFmwlJZmDwtkNQE9dZJYODH8oN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.WebAPI.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.WebAPI.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="WebAPI" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Debug/net9.0/WebAPI" />
@@ -171,12 +110,15 @@
       <option name="presentableId" value="Default" />
       <updated>1739956437664</updated>
       <workItem from="1739956438995" duration="378000" />
+      <workItem from="1739956984196" duration="1198000" />
+      <workItem from="1739958204726" duration="521000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

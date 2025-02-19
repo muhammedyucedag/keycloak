@@ -2081,11 +2081,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/muhammedyucedag/Desktop/Project/Keycloak.Udemy/WebAPI/WebAPI.csproj",
+      "projectUniqueName": "/Users/muhammedyucedag/Desktop/Project/keycloak/WebAPI/WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "/Users/muhammedyucedag/Desktop/Project/Keycloak.Udemy/WebAPI/WebAPI.csproj",
+      "projectPath": "/Users/muhammedyucedag/Desktop/Project/keycloak/WebAPI/WebAPI.csproj",
       "packagesPath": "/Users/muhammedyucedag/.nuget/packages/",
-      "outputPath": "/Users/muhammedyucedag/Desktop/Project/Keycloak.Udemy/WebAPI/obj/",
+      "outputPath": "/Users/muhammedyucedag/Desktop/Project/keycloak/WebAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/muhammedyucedag/.nuget/NuGet/NuGet.Config"

@@ -7,10 +7,7 @@ using WebAPI.Services;
 namespace WebAPI.Controllers;
 [Route("api/[controller]/[action]")]
 [ApiController]
-//[Authorize]
-public sealed class RolesController(
-    KeycloakService keycloakService,
-    IOptions<KeycloakConfiguration> options) : ControllerBase
+public sealed class RolesController(KeycloakService keycloakService, IOptions<KeycloakConfiguration> options) : ControllerBase
 {
     [HttpGet]
     public async Task<IActionResult> GetAll(CancellationToken cancellationToken)

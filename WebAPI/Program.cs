@@ -45,34 +45,24 @@ builder.Services.AddControllers();
 builder.Services.AddKeycloakWebApiAuthentication(builder.Configuration);
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("UserGetAll", builder =>
+    options.AddPolicy("ViewUsers", policy =>
     {
-        builder.RequireResourceRoles("UserGetAll");
+        policy.RequireRole("realm-management:view-users");
     });
 
-    options.AddPolicy("UserCreate", builder =>
+    options.AddPolicy("ViewUsersCustom", policy =>
     {
-        builder.RequireResourceRoles("UserCreate");
-    });
-
-    options.AddPolicy("UserUpdate", builder =>
-    {
-        builder.RequireResourceRoles("UserUpdate");
-    });
-
-    options.AddPolicy("UserDelete", builder =>
-    {
-        builder.RequireResourceRoles("UserDelete");
+        policy.RequireRole("role_view-users");
     });
 
 }).AddKeycloakAuthorization(builder.Configuration);
 
 var app = builder.Build();
 
-app.UseSwagger();
-app.UseSwaggerUI();
-
 app.UseCors(x => x.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
+
+app.UseSwagger();
+app.UseSwaggerUI(); 
 
 app.UseAuthentication();
 app.UseAuthorization();
