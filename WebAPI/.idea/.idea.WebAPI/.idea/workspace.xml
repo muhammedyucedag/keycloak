@@ -7,33 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b59f590-c104-4483-853d-86d05e65ced0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebAPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/RolesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RolesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/UserRolesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/UserRolesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/WebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/WebAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/WebAPI.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/ref/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/ref/WebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/refint/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/refint/WebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/WebAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebAPI.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
-    </list>
+    <list default="true" id="3b59f590-c104-4483-853d-86d05e65ced0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,8 +85,17 @@
       <updated>1739956437664</updated>
       <workItem from="1739956438995" duration="378000" />
       <workItem from="1739956984196" duration="1198000" />
-      <workItem from="1739958204726" duration="521000" />
+      <workItem from="1739958204726" duration="565000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1739958758759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739958758759</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +105,7 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
